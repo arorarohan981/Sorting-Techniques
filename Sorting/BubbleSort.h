@@ -37,8 +37,10 @@ public:
      */
     template <typename T>
     static void sort (T arr[] ,int no_of_elements ,bool ascending){
+        
         std::cout<<std::endl<<"Elements Before Sorting : "<<std::endl;
         printarray(arr,no_of_elements);
+        std::cout<<std::endl;
         for(int i=0;i<no_of_elements;i++){
             bool is_arr_already_sorted =true;
             for(int j=0;j<no_of_elements-i;j++){
@@ -53,7 +55,7 @@ public:
             }
         }
         
-        std::cout<<std::endl<<"Elements After Sorting : "<<std::endl;
+        std::cout<<"Elements After Sorting : "<<std::endl;
         printarray(arr,no_of_elements);
         
         
