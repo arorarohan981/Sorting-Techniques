@@ -22,7 +22,8 @@
  * 
  * Time Complexity of Insertion Sort in O(n^2).
  * Space Complexity of Insertion Sort is O(1).
- * 
+ * Best Case Time Complexity is O(n) .We can refer technique 2 for this.Technique 2
+ * below has better implementation.
  * ************************
  * Maximum Number of Comparisons for Insertion Sort is Sum of First N-1 Integers.
  * ************************
