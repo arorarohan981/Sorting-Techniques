@@ -5,6 +5,7 @@
                    displayName="Header Files"
                    projectFiles="true">
       <itemPath>BubbleSort.h</itemPath>
+      <itemPath>CountingSort.h</itemPath>
       <itemPath>InsertionSort.h</itemPath>
       <itemPath>SelectionSort.h</itemPath>
     </logicalFolder>
@@ -44,6 +45,8 @@
       </compileType>
       <item path="BubbleSort.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="CountingSort.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="InsertionSort.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="SelectionSort.h" ex="false" tool="3" flavor2="0">
@@ -73,6 +76,8 @@
         </asmTool>
       </compileType>
       <item path="BubbleSort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CountingSort.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="InsertionSort.h" ex="false" tool="3" flavor2="0">
       </item>

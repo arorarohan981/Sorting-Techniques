@@ -10,6 +10,7 @@
 #include "BubbleSort.h"
 #include "SelectionSort.h"
 #include "InsertionSort.h"
+#include "CountingSort.h"
 /*
  * 
  */
@@ -40,6 +41,15 @@ int main(int argc, char** argv) {
     InsertionSort::sort<int>(arr3,5,true);
     int arr4[5]={33,1,3,87,55};
     InsertionSort::sort_technique2<int>(arr4,5,false);
-    return 0;
+    
+    
+    /*Counting Sort*/
+    std::cout<<"Testing Counting Sort \n"<<std::endl;
+    int arr5[5] = {5,4,3,2,1};
+    CountingSort::sort<int>(arr5,5,true);
+    int arr6[5]={1,9,8,1,4};
+    CountingSort::sort<int>(arr6,5,false);
+    
+    return EXIT_SUCCESS;
 }
 
