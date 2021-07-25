@@ -30,6 +30,12 @@
 class CountingSort{
     
 public:
+    /* Sort Method takes in Array of any Type T (which has <,> operator overloaded ),
+     * Number of Elements of type int  and 
+     * a Boolean value (True if we want the elements to be sorted in Ascending order 
+     * or False if we want the elements to be sorted in Descending Order 
+     * as a Paramater.
+     */
     template <typename T>
     void static sort(T arr[],int size,bool order){
         std::cout<<std::endl<<"Elements Before Sorting are "<<std::endl;

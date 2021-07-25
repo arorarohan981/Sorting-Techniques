@@ -7,6 +7,7 @@
       <itemPath>BubbleSort.h</itemPath>
       <itemPath>CountingSort.h</itemPath>
       <itemPath>InsertionSort.h</itemPath>
+      <itemPath>QuickSort.h</itemPath>
       <itemPath>SelectionSort.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -49,6 +50,8 @@
       </item>
       <item path="InsertionSort.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="QuickSort.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="SelectionSort.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
@@ -80,6 +83,8 @@
       <item path="CountingSort.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="InsertionSort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QuickSort.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="SelectionSort.h" ex="false" tool="3" flavor2="0">
       </item>
