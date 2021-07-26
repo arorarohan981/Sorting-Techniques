@@ -92,17 +92,35 @@ private:
   * adjacent Elements.
   */
  template <typename T>
- void static shellsort(T arr[],int size,int distance)
+ void static shellsort(T a[],int size,int distance)
  {
-     while(distance>0){
-         for(int i=0; i+distance<size;i++){
-             if(arr[i] < arr[i+distance]){
-                 swapelements(arr,i,i+distance);
-             }
-         }
-         
-         distance--;
-     }
+//     while(distance>0){
+//         for(int i=0; i+distance<size;i++){
+//             if(arr[i] < arr[i+distance]){
+//                 swapelements(arr,i,i+distance);
+//             }
+//         }
+//         
+//         distance--;
+//     }
+        int i = 0;
+        int temp = 0;
+        int shell=distance;
+        /* Determine the initial size of the shell*/
+       
+
+        while (shell > 0) {
+            for (i = 0; (i + shell) < size; i++) {
+                if (a[i] < a[shell + i]) {
+                    temp = a[i];
+                    a[i] = a[shell + i];
+                    a[shell + i] = temp;
+                }
+            }
+            /* Reduce the shell size by 1 */
+            shell--;
+        }
+        return;
  }
  
  /* Swapelements method swaps 2 elements inside the array .

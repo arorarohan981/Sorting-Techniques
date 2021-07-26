@@ -14,6 +14,7 @@
 #include "QuickSort.h"
 #include "MergeSort.h"
 #include "ShellSort.h"
+#include "RadixSort.h"
 /*
  * 
  */
@@ -68,6 +69,7 @@ int main(int argc, char** argv) {
     MergeSort::sort<int>(arr9,5,true);
     int arr10[5]={1,2,3,4,5};
     MergeSort::sort<int>(arr10,5,false);
+    std::cout<<"\n"<<std::endl;
     
     
     /*Shell Sort*/
@@ -76,6 +78,15 @@ int main(int argc, char** argv) {
     ShellSort::sort<int>(arr11,5,true);
     int arr12[5]={99,87,32,12,3};
     ShellSort::sort<int>(arr12,5,false);
+    std::cout<<"\n"<<std::endl;
+ 
+    /*Radix/Bucket Sort*/
+    std::cout<<std::endl<<"Testing Radix/Bucket Sort \n"<<std::endl;
+    int arr13[5]={99,87,32,12,3};
+    RadixSort::radixSort(arr13,5,true);
+    int arr14[5]={99,32,21,12,3};
+    RadixSort::radixSort(arr14,5,false);
+    std::cout<<"\n"<<std::endl;
     
     return EXIT_SUCCESS;
 }

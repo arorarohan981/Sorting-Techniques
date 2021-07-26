@@ -9,6 +9,7 @@
       <itemPath>InsertionSort.h</itemPath>
       <itemPath>MergeSort.h</itemPath>
       <itemPath>QuickSort.h</itemPath>
+      <itemPath>RadixSort.h</itemPath>
       <itemPath>SelectionSort.h</itemPath>
       <itemPath>ShellSort.h</itemPath>
     </logicalFolder>
@@ -56,6 +57,8 @@
       </item>
       <item path="QuickSort.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="RadixSort.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="SelectionSort.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="ShellSort.h" ex="false" tool="3" flavor2="0">
@@ -93,6 +96,8 @@
       <item path="MergeSort.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="QuickSort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RadixSort.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="SelectionSort.h" ex="false" tool="3" flavor2="0">
       </item>
