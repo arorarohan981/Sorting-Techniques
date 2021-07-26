@@ -36,7 +36,7 @@
  * It is not a Stable Sorting Algorithm.
  * It is a In-Place Sorting Algorithm.
  *
- * USed in case where array size is small.Performs better than merge sort in this case.
+ * Used in case where array size is small.Performs better than merge sort in this case.
  */
 class QuickSort{
     

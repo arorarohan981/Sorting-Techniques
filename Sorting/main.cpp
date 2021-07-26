@@ -12,6 +12,7 @@
 #include "InsertionSort.h"
 #include "CountingSort.h"
 #include "QuickSort.h"
+#include "MergeSort.h"
 /*
  * 
  */
@@ -52,7 +53,6 @@ int main(int argc, char** argv) {
     CountingSort::sort<int>(arr6,5,false);
     std::cout<<"\n"<<std::endl;
     
-    /*QuickSort*/
     std::cout<<"Testing QuickSort/Partition Sort \n"<<std::endl;
     int arr7[5]={88,32,11,83,21};
     QuickSort::sort<int>(arr7,5,true);
@@ -60,6 +60,13 @@ int main(int argc, char** argv) {
     QuickSort::sort<int>(arr8,5,false);
     std::cout<<"\n"<<std::endl;
     
+    
+    /*Merge Sort*/
+    std::cout<<"Testing Merge Sort \n"<<std::endl;
+    int arr9[5]={99,87,32,12,3};
+    MergeSort::sort<int>(arr9,5,true);
+    int arr10[5]={1,2,3,4,5};
+    MergeSort::sort<int>(arr10,5,false);
     return EXIT_SUCCESS;
 }
 

@@ -14,6 +14,7 @@
 #ifndef SELECTIONSORT_H
 #define SELECTIONSORT_H
 #include<iostream>
+#include<cmath>
 
 /*
    Selection Sort improves on the Bubble Sort By making only 1 Swap per Pass.
@@ -61,6 +62,7 @@ public:
             swapelements(arr,temp,j-1);
             
         }
+        
         std::cout<<"Elements After Sorting are "<<std::endl;
         printarray(arr,no_of_elements);
          std::cout<<std::endl;
@@ -92,6 +94,23 @@ private:
                     arr[pos2]=temp;
         }
     
+        
+         /*
+         * It reverses the elements of the supplied array.
+         */
+        template <typename T>
+        static void reversearr(T arr[],int size){
+            
+            T temp;
+            int half=std::floor(size/2);
+            
+            for(int i=0;i<half;i++){
+                temp=arr[i];
+                arr[i]=arr[size-i-1];
+                arr[size-i-1]=temp;
+            }
+            
+        }
 };
 
 
