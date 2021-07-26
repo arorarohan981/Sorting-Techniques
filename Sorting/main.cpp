@@ -13,6 +13,7 @@
 #include "CountingSort.h"
 #include "QuickSort.h"
 #include "MergeSort.h"
+#include "ShellSort.h"
 /*
  * 
  */
@@ -67,6 +68,15 @@ int main(int argc, char** argv) {
     MergeSort::sort<int>(arr9,5,true);
     int arr10[5]={1,2,3,4,5};
     MergeSort::sort<int>(arr10,5,false);
+    
+    
+    /*Shell Sort*/
+    std::cout<<"Testing Shell Sort \n"<<std::endl;
+    int arr11[5]={99,87,32,12,3};
+    ShellSort::sort<int>(arr11,5,true);
+    int arr12[5]={99,87,32,12,3};
+    ShellSort::sort<int>(arr12,5,false);
+    
     return EXIT_SUCCESS;
 }
 
